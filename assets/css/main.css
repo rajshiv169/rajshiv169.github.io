@@ -17,6 +17,31 @@ body {
     font-family: 'Nunito Sans', sans-serif
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0fbcf9;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4bcffa, #0fbcf9);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4bcffa, #0fbcf9);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
 article,
 aside,
 details,
